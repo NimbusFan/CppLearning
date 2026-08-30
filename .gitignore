@@ -41,5 +41,8 @@ ARM64/
 .DS_Store
 *.dSYM/
 
+# macOS C++ build output
+*.out
+
 # VS Code local settings
 .vscode/
