@@ -5,8 +5,11 @@
   </Configurations>
   <Project Path="C++基础语法/C++基础语法.vcxproj" Id="0ab24336-e171-4920-b9e2-b69303e269dd" />
   <Project Path="函数/函数.vcxproj" Id="938cb3e9-772e-4fd9-ba8e-5706053b6fd8" />
+  <Project Path="函数高级/函数高级.vcxproj" Id="d33e2829-f1ad-40e7-bf56-f39cc4bdeb5f" />
+  <Project Path="引用/引用.vcxproj" Id="1c20b02a-cb23-41d5-a1df-2786e39cca8d" />
   <Project Path="指针/指针.vcxproj" Id="f4dc9b02-1604-478c-bb1b-2ce631283fd6" />
   <Project Path="数组/数组.vcxproj" Id="10cbd92b-bffd-40fa-b02f-4b0ecc27f7d2" />
+  <Project Path="类和对象/类和对象.vcxproj" Id="4b18c468-fe56-426f-b174-93f82ddee983" />
   <Project Path="结构体/结构体.vcxproj" Id="2a4fb604-7eb6-4ee3-983a-a562f61c13c2" />
   <Project Path="通讯录管理系统/通讯录管理系统.vcxproj" Id="20de436e-4ef6-4569-80bf-b18ce35da768" />
 </Solution>
