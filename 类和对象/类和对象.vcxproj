@@ -140,7 +140,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01属性和行为.cpp" />
-    <ClCompile Include="02封装案例-设计学生类.cpp" />
+    <ClCompile Include="02封装案例1-设计学生类.cpp" />
+    <ClCompile Include="03封装-访问权限.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04struct和class区别.cpp" />
+    <ClCompile Include="05成员属性设置为私有.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06封装案例2-设计立方体类.cpp" />
+    <ClCompile Include="07封装案例3-点和圆的关系.cpp" />
+    <ClCompile Include="08构造函数和析构函数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09构造函数的分类和调用.cpp" />
+    <ClCompile Include="10拷贝函数的调用时机.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

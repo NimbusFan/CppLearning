@@ -20,7 +20,7 @@ public:
 	}
 };
 
-int main()
+int main02()
 {
 	Student s1;
 	s1.setName("周杰伦");
