@@ -64,7 +64,7 @@ void test03()
     Person p = doWork2(); //这里没有调用拷贝构造函数，直接用p接收拷贝对象p1
 }
 
-int main()
+int main10()
 {
     //test01();	
     //test02();
