@@ -32,7 +32,8 @@ WorkerManager::WorkerManager() {
 
 	//文件存在，且有数据
 	 this->m_EmpNum = this->get_EmpNum();
-
+	 this->m_EmpArray = new Worker*[this->m_EmpNum];
+	 this->init_Emp();
 }
 
 void WorkerManager:: show_Menu() {
@@ -155,7 +156,48 @@ int WorkerManager::get_EmpNum() {
 	return num;
 }
 
-WorkerManager::~WorkerManager() {
+void WorkerManager::init_Emp(){
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+	
+	int id;
+	string name;
+	int dptid;
+	int index = 0;
+
+	while(ifs >> id && ifs >> name && ifs >> dptid){
+		Worker* worker = nullptr;
+		if(dptid == 1){
+			worker = new Employee(id, name, dptid);
+		}
+		else if(dptid == 2){
+			worker = new Manager(id, name, dptid);
+		}
+		else if(dptid == 3){
+			worker = new Boss(id, name, dptid);
+		}
+		this->m_EmpArray[index] = worker;
+		index++;
+	}
+	ifs.close();
+}
+
+void WorkerManager::show_Emp(){
+	if(this->m_FileIsEmpty){
+		cout << "文件不存在或记录为空" << endl;
+	}
+	else{
+		for(int i = 0; i < m_EmpNum; i++){
+			this->m_EmpArray[i]->showInfo();
+		}
+	}
+
+	system("pause");
+	system("cls");
+}
+
+	WorkerManager::~WorkerManager()
+{
 	if (this->m_EmpArray != nullptr) {
 		for (int i = 0;i < this->m_EmpNum;i++) {
 			delete m_EmpArray[i];

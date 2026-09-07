@@ -21,5 +21,9 @@ public:
 
 	int get_EmpNum();
 
+	void init_Emp();
+
+	void show_Emp();
+
 	~WorkerManager();
 };
