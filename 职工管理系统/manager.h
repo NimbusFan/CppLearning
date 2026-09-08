@@ -2,7 +2,8 @@
 #include "worker.h"
 #include <string>
 
-class Manager :public Worker {
+class Manager :public Worker 
+{
 public:
 	Manager(int id, std::string name, int depatid);
 	virtual void showInfo();

@@ -2,7 +2,8 @@
 #include "worker.h"
 #define FILENAME "empFile.txt"
 
-class WorkerManager {
+class WorkerManager
+{
 public:
 	int m_EmpNum;
 	bool m_FileIsEmpty;
@@ -24,6 +25,18 @@ public:
 	void init_Emp();
 
 	void show_Emp();
+
+	void del_Emp();
+
+	int IsExist(int id);
+
+	void Mod_Emp();
+
+	void Find_Emp();
+
+	void Sort_Emp();
+	
+	void Clean_File();
 
 	~WorkerManager();
 };
