@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="C++基础语法/C++基础语法.vcxproj" Id="0ab24336-e171-4920-b9e2-b69303e269dd" />
+  <Project Path="STL/STL.vcxproj" Id="c4ce539e-50c0-46d9-ab67-b88a954bdb1d" />
   <Project Path="函数/函数.vcxproj" Id="938cb3e9-772e-4fd9-ba8e-5706053b6fd8" />
   <Project Path="函数高级/函数高级.vcxproj" Id="d33e2829-f1ad-40e7-bf56-f39cc4bdeb5f" />
   <Project Path="引用/引用.vcxproj" Id="1c20b02a-cb23-41d5-a1df-2786e39cca8d" />
