@@ -141,5 +141,35 @@
     <ClCompile Include="42set容器-自定义数据类型指定排序规则.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="43map容器-构造和赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45map容器-插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44map容器-大小和交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46map容器-查找和统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47map容器-排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48STL案例3-员工分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50谓词-一元谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51谓词-二元谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52内建函数对象-算数仿函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
