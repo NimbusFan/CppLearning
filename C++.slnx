@@ -7,6 +7,7 @@
   <Project Path="STL/STL.vcxproj" Id="c4ce539e-50c0-46d9-ab67-b88a954bdb1d" />
   <Project Path="函数/函数.vcxproj" Id="938cb3e9-772e-4fd9-ba8e-5706053b6fd8" />
   <Project Path="函数高级/函数高级.vcxproj" Id="d33e2829-f1ad-40e7-bf56-f39cc4bdeb5f" />
+  <Project Path="常用遍历算法/常用遍历算法.vcxproj" Id="7d39dbe6-7c1f-482a-9ecb-76cfd6695487" />
   <Project Path="引用/引用.vcxproj" Id="1c20b02a-cb23-41d5-a1df-2786e39cca8d" />
   <Project Path="指针/指针.vcxproj" Id="f4dc9b02-1604-478c-bb1b-2ce631283fd6" />
   <Project Path="数组/数组.vcxproj" Id="10cbd92b-bffd-40fa-b02f-4b0ecc27f7d2" />
